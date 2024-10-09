@@ -1,0 +1,29 @@
+<biblioteca>
+    <libro>
+        <titulo> 
+        el clan 
+        </titulo>
+
+        <autor>
+            Carmen Mola
+        </autor>
+
+        <año>
+            2024
+        </año>
+    </libro>
+
+    <libro>
+        <titulo> 
+        el niño que perdió la guerra 
+        </titulo>
+
+        <autor>
+            Julia Navarro
+        </autor>
+
+        <año>
+            2023
+        </año>
+    </libro>
+</biblioteca>
