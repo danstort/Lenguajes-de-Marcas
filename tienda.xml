@@ -1,0 +1,33 @@
+<? xml version="1.0" encoding="UFT-8"?>
+
+<tiendas>
+
+<tienda>
+
+    <nombre>Aldi</nombre>
+
+    <producto>
+        <nombre>Pilas</nombre>
+        <categoria>Electrónica</categoria>
+        <precio>2€</precio>
+    </producto>
+
+    producto>
+        <nombre>Leche</nombre>
+        <categoria>Alimentación</categoria>
+        <precio>1.5€</precio>
+    </producto>
+
+    producto>
+        <nombre>Fairy</nombre>
+        <categoria>Limpieza</categoria>
+        <precio>0.5€</precio>
+    </producto>
+
+</tienda>
+
+</tiendas>
+
+
+
+
