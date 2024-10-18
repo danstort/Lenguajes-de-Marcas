@@ -6,30 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
 
             background-image: url("img/nature.jpg");
             font-weight: bold;
             color: white;
         }
 
+        form{
+
+padding-right: 220%;
+
+        }
     </style>
 </head>
 
 <body>
-    <form>
+    <form autocomplete="off">
 
+        <fieldset>
+            <legend>Datos personales</legend>
         <label for=“nombre”>Nombre: </label><br>
         <input type="text" name="nombre"><br>
         <label for=“apellido”>Apellido: </label><br>
         <input type="text" name="apellido"><br>
         <label for=“contraseña”>Contraseña: </label><br>
         <input type="password" name="contraseña"><br>
-        
+        <label for="mensaje">Mensaje: </label><br>
+        <input type="textarea" id="mensaje" name="mensaje" size="25"><br>
+
+
         <br>
         <input type="submit" value="Enviar">
 
+    </fieldset>
+
     </form>
+
+    <form>
+
+        <p>¿Has visitado el país alguna vez?</p>
+        <input type="radio" name="pais" id=“Sí” value="Sí">
+        <label for=“Sí”> Sí </label><br>
+        <input type="radio" name="pais" id=“No” value="No">
+        <label for=“No”> No </label><br>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form>
+
+        <p>¿Qué medios de transporte has utilizado?:</p>
+        <input type="checkbox" name="transporte" id=“tren” value="tren">
+        <label for=“l”>Tren</label><br>
+        <input type="checkbox" name="transporte" id=“tranvia” value="tranvia">
+        <label for=“tranvia”>Tranvía</label><br>
+        <input type="checkbox" name="transporte" id=“taxi” value="taxi">
+        <label for=“taxi”> Taxi </label><br>
+        <input type="checkbox" name="transporte" id=“metro” value="metro">
+        <label for=“metro”> Metro</label><br>
+
+        <br><br>
+        <label for=“season”>Selecciona la estación:</label>
+        <select name=“season” id=“season”>
+            <option value="">Selecciona la estación</option>
+            <option value="w"> Invierno</option>
+            <option value="s">Primavera</option>
+            <option value="s">Verano</option>
+            <option value="a">Otoño</option>
+            
+        </select>
+
+
+        <br><br>
+        <label for="Comentario"> Sugerencias</label>
+        <textarea name="Comentario" cols="60" rows="6"></textarea>
+
+
+        <br>
+        <br>
+        <label for=“justificante” id="miBoton">Adjunta tu foto</label>
+        <input type="file" name=“justificante” id=“justificante”>
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="image" src="./img/env.webp" alt=“Submit” width="48">
+        <input type="reset" value="Rellenar de nuevo">
+        <input type="button" value="Click" onclick="alert('Eres tonto, ¡Felicidades!')">
+
+        
+
+        <br><br>
+        
+
+        
+
+       
+    </form>
+
 </body>
 
 </html>
