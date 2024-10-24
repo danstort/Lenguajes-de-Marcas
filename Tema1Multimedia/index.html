@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurante ficticio con la mejor comida de la ciudad">
+    <title>Restaurante Delicioso</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #510d0d;
+            color: white;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        form {
+            margin: 20px auto;
+            padding: 20px;
+            width: 50%;
+            border: 2px solid #333;
+            border-radius: 15px;
+            background-color: #ececec;
+        }
+        footer {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Restaurante Delicioso</h1>
+        <a href="menu.html">
+            <img src="./img/logo.png" alt="Logotipo del restaurante" width="150">
+        </a>
+    </header>
+
+    <main>
+        <p>Bienvenido a <strong>Restaurante Delicioso</strong>, donde ofrecemos lo mejor en comida gourmet con ingredientes frescos y locales. Ubicados en el corazón de la ciudad, somos conocidos por nuestras <strong>exquisitas recetas</strong> y excelente servicio.</p>
+
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <p>¿Has visitado antes nuestro restaurante?</p>
+            <input type="radio" id="si" name="visita" value="si" required>
+            <label for="si">Sí</label>
+            <input type="radio" id="no" name="visita" value="no">
+            <label for="no">No</label><br><br>
+
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar datos">
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <a href="#top">Volver al inicio </a> <br>
+        <a href="mailto:sugerencias@restaurantedelicioso.com">
+        <img src="./img/email.webp" alt="Enviar sugerencias" width="30">
+        </a>
+        <p>Creado por Daniel Soto Ortiz</p>
+    </footer>
+
+</body>
+</html>
