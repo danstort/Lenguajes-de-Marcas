@@ -1,0 +1,25 @@
+header{
+
+  background-color: aqua;  
+}
+
+h1 {
+
+    color: crimson;
+    
+}
+
+#menusup {
+
+    padding: auto;
+    display: inline;
+    width: 100%;
+    margin: 0;
+    
+}
+
+li{
+
+    display: inline;
+    list-style: none;
+}

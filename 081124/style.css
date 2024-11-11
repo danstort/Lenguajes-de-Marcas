@@ -1,0 +1,37 @@
+/* CSS */
+div {
+    border: solid 3px red;
+    width: auto;
+    /* margin-top: 20px; */
+}
+
+.div2 {
+    padding: 50px;
+}
+
+.div3 {
+    box-sizing: border-box;
+}
+
+.div4 {
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+
+
+div.container {
+
+    width: 30 em;
+    border: 1em solid;
+
+}
+
+div.ej {
+
+    width: 50%;
+    box-sizing: border-box;
+   float: left;
+    border: 1em solid red;
+
+}
